@@ -1,0 +1,32 @@
+baseurl = "http://dev.brooksgarrett.com"
+languageCode = "en-us"
+title = "Grove Pointe HOA"
+# Define how many pages appear per site
+paginate = 10
+# Enable comments powered by Disqus by entering your disqus shortname
+disqusShortname = "gphoa"
+
+
+[params]
+    site_author = "Brooks Garrett"
+    site_description = "News and information for the Grove Pointe Home Owner's Association in Hahira, GA."
+    location = "Hahira, GA"
+    # All paths are relative to the baseurl. Put your files
+    # somewhere in the static folder.
+    avatar = "img/entrance.jpg"
+    header_background = "img/entrance.jpg"
+    header_title = ""
+    copyright = "Powered by [Hugo](http://gohugo.io)."
+
+    # Enable gogle analytics by entering your tracking code
+    google_analytics = ""
+    
+[params.contacts]
+    people = [
+        ["Mike Smith", "President", "229 630 3838", "smittystore@bellsouth.net" ],
+        ["Brett Smith", "Vice President", "229 460 4271", "smi124@bellsouth.net"],
+        ["Ashley Willmont", "Treasurer", "850 499 1600", "ashleywillmont@yahoo.com"],
+        ["Lindsey Garrett", "Secretary", "229 560 2599", "lindsey@brooksgarrett.com"],
+        ["Bryan Peters", "Tree Inspection/Removal", "229 560 0999", "bryan@agnutrients.com"],
+        ["Brett Smith", "Architectural Committee Chair", "229 460 4271", "smi124@bellsouth.net"]
+    ]

@@ -1,0 +1,106 @@
+    <div class="brand">Grove Pointe HOA</div>
+    <div class="address-bar">Welcome Home | Hahira, GA</div>
+    
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=
+                "#bs-example-navbar-collapse-1" data-toggle="collapse" type=
+                "button"><span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button> 
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                 <a class="navbar-brand" href="index.html">Grove Pointe HOA</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+            <div class="collapse navbar-collapse" id=
+            "bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="{{ .Site.BaseURL }}/index.html" title=
+                        "Learn all about what Grove Pointe has to offer.">Home</a>
+                    </li>
+
+
+                    <li>
+                        <a aria-expanded="false" aria-haspopup="true" class=
+                        "dropdown-toggle" data-toggle="dropdown" href="#" role=
+                        "button" title=
+                        "Learn all about what Grove Pointe has to offer.">Amenities
+                        <span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href=
+                                "{{ .Site.BaseURL }}/amenities/park/"
+                                title="The Grove Pointe Park.">Park</a>
+                            </li>
+
+
+                            <li>
+                                <a href=
+                                "{{ .Site.BaseURL }}/amenities/pavillion/"
+                                title=
+                                "The Grove Pointe Pavillion.">Pavillion</a>
+                            </li>
+
+
+                            <li>
+                                <a href=
+                                "{{ .Site.BaseURL }}/amenities/pool/"
+                                title="The Grove Pointe Pool.">Pool</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a href="{{ .Site.BaseURL }}/contact/" title=
+                        "Impotant names, numbers, and email addresses.">Contact
+                        Us</a>
+                    </li>
+
+
+                    <li>
+                        <a aria-expanded="false" aria-haspopup="true" class=
+                        "dropdown-toggle" data-toggle="dropdown" href="#" role=
+                        "button" title=
+                        "Important documents including reports and covenants.">Documents
+                        <span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href=
+                                "{{ .Site.BaseURL }}/files/Restrictive-Covenants.pdf"
+                                title="Download our covenants.">Covenants</a>
+                            </li>
+
+
+                            <li>
+                                <a href=
+                                "{{ .Site.BaseURL }}/documents/minutes/"
+                                title=
+                                "Official minutes from HOA meetings.">Meeting
+                                Minutes and Reports</a>
+                            </li>
+
+
+                            <li>
+                                <a href=
+                                "{{ .Site.BaseURL }}/documents/pool/"
+                                title="Forms and FAQs about the pool.">Pool
+                                Forms</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>

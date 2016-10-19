@@ -1,0 +1,25 @@
+{{ partial "head" }}
+
+
+  <body>
+
+    {{ partial "nav"}}
+        <div class="container">
+    {{ block "content" . }}
+    
+
+<!--End mc_embed_signup-->
+
+    {{ range first 3 (where .Data.Pages "Section" "news")}}
+        {{ partial "post" .}}
+    {{ end }}
+
+
+    {{ end }}
+    </div>
+    {{ partial "footer" }}
+
+    {{ partial "bottom_scripts"}}
+  </body>
+
+</html>
